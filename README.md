@@ -1,8 +1,8 @@
-### plant-diseases-detection
-## Project Overview
+### Plant-diseases-detection
+# Project Overview
 This project implements an AI-powered system to detect plant diseases from images. Using deep learning and computer vision techniques, the system identifies various diseases affecting plants to help farmers and agricultural professionals take timely action.
 The model is trained on a dataset of labeled plant images and can classify different diseases accurately. The project includes data preprocessing, model training, and a user-friendly interface for testing and deployment.
-##Table of Contents
+# Table of Contents
 .[Project Overview](#project-overview)  
 .[Project Structure](#project-structure)  
 .[Getting Started](#getting-started)  
@@ -12,7 +12,7 @@ The model is trained on a dataset of labeled plant images and can classify diffe
 .[Usage](#usage)  
 .[Customization](#customization)  
 .[Technologies Used](#technologies-used)  
-## Project Structure
+# Project Structure
 ata/ # Dataset folder containing plant images
 ├── model.py # Deep learning model architecture
 ├── train.py # Script to train the model
@@ -37,7 +37,7 @@ python app.py
 http://localhost:5000
 to upload images and get real-time disease predictions.
 
-## Customization
+# Customization
 Update or expand your dataset in the data/ folder to improve model accuracy.
 
 Modify the model architecture in model.py to experiment with different neural networks.
@@ -45,7 +45,7 @@ Modify the model architecture in model.py to experiment with different neural ne
 Change preprocessing or augmentation techniques in utils.py.
 
 Customize the Flask interface (app.py and templates) to improve user experience.
-## Technologies Used
+# Technologies Used
 Python
 
 PyTorch or TensorFlow (depending on your model framework)
