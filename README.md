@@ -21,19 +21,19 @@ The model is trained on a dataset of labeled plant images and can classify diffe
 . app.py # Flask app for web interface (if applicable)
 .requirements.txt # Required Python packages
 
-/ Navigate into the project directory:
+#### Navigate into the project directory:
 cd plant-diseases-detection
-/ Install required Python packages:
+#### Install required Python packages:
 pip install -r requirements.txt
-/ Training the Model
+#### Training the Model
 python train.py
 This script preprocesses the dataset and trains the model defined in model.py. Training progress and accuracy will be displayed in the termina
-/ Usage
+#### Usage
 To predict plant diseases from new images
 python predict.py --image path_to_image.jpg
-/ Stremlit web interface is implemented, start the web app:
+#### Stremlit web interface is implemented, start the web app:
 python app.py
-/ Then open your browser at:
+#### Then open your browser at:
 http://localhost:5000
 to upload images and get real-time disease predictions.
 
