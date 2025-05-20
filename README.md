@@ -14,11 +14,17 @@ The model is trained on a dataset of labeled plant images and can classify diffe
 .[Technologies Used](#technologies-used)  
 ## Project Structure
 .Dataset folder containing plant images
-. model.py # Deep learning model architecture
+
+.model.py # Deep learning model architecture
+
 .train.py # Script to train the model
-. utils.py # Utility functions (data processing, augmentation)
-. predict.py # Script to run predictions on input images
-. app.py # Flask app for web interface (if applicable)
+
+.utils.py # Utility functions (data processing, augmentation)
+
+.predict.py # Script to run predictions on input images
+
+.app.py # Flask app for web interface (if applicable)
+
 .requirements.txt # Required Python packages
 
 #### Navigate into the project directory:
